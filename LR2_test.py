@@ -1,7 +1,8 @@
 import unittest
 from unittest.mock import MagicMock, patch
 import io
-from LR2 import Logger, ConsoleLogStrategy, FileLogStrategy, UpperFileLogStrategy
+from log_strategy import ConsoleLogStrategy, FileLogStrategy, UpperFileLogStrategy
+from logger import Logger
 
 
 class TestLogger(unittest.TestCase):
